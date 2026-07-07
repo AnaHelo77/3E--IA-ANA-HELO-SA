@@ -1,5 +1,5 @@
 :root {
-  --cor-fundo: #6756c4d2;
+  --cor-fundo: #7263c7c9;
   --cor-principal: #1b1f49;
   --cor-secundaria: #161b44;
   --cor-destaque: #7415b3;
@@ -25,4 +25,19 @@ body {
 h1 {
   color: var(--cor-destaque);
 }
+
+button {
+  background-color: var(--cor-fundo);
+  color: var(--cor-destaque);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--cor-destaque);
+  color: var(--cor-secundaria);
+}
+
 
