@@ -8,44 +8,51 @@ const pergunta1 = "Pergunta 1";
 const pergunta2 = "Pergunta 2";
 
 const perguntas = [
-  {
-    enunciado:
-      "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-    alternativas: ["Isso é assustador!", "Isso é maravilhoso!"],
-  },
-  {
-    enunciado:
-      "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
-    alternativas: [
-      "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-      "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-    ],
-  },
-  {
-    enunciado:
-      "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-    alternativas: [
-      "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-      "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
-    ],
-  },
-  {
-    enunciado:
-      "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-    alternativas: [
-      "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-      "Criar uma imagem utilizando um gerador de imagem de IA.",
-    ],
-  },
-  {
-    enunciado:
-      "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
-    alternativas: [
-      "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-      "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-    ],
-  },
-];
+             {
+        enunciado: "Qual manejo equilibra tradição e alta tecnologia na pecuária atual?",
+        alternativas: [
+            {
+                texto: "Isso é assustador!",
+                afirmacao: "Você preferiu a pecuária extensiva tradicional de baixa densidade, focada na rusticidade animal. "
+              
+            },
+            {
+                texto: "Isso é maravilhoso!",
+                afirmacao: "Você escolheu a Zootecnia de precisão, usando tecnologia aeroespacial para economizar pasto."
+            }
+        ]
+    },
+
+     {
+        enunciado: "Qual método define o melhoramento de rebanhos na atualidade?Alternativa A: Escolha visual tradicional baseada apenas na beleza e tamanho animal.Afirmação A: Sua escolha focou no visual biológico clássico, método histórico com limites produtivos.Alternativa B: Seleção genômica via exame de DNA antes do animal nascer.Afirmação B: Você usou biotecnologia moderna e mapeamento genético para prever lucros e produção.Pergunta 3: SuinoculturaEnunciado: Qual é o foco tecnológico no manejo de porcas gestantes hoje?Alternativa A: Uso de gaiolas individuais restritas para controle total do espaço.Afirmação A: Você adotou o modelo industrial antigo de alta restrição física e menor bem-estar.Alternativa B: Baias coletivas com alimentação eletrônica ativada por microchip.Afirmação B: Você priorizou o bem-estar animal moderno aliado à automação e controle nutricional.Pergunta 4: Nutrição de AvesEnunciado: Como é calculada a ração moderna para frangos de granja?Alternativa A: Baseada apenas na porcentagem total de proteína bruta genérica.Afirmação A: Sua dieta seguiu uma linha nutricional antiga, que gera maior poluição ambiental.Alternativa B: Baseada em aminoácidos digestíveis exatos para cada fase da ave.Afirmação B: Você aplicou nutrição cirúrgica de alta conversão alimentar e baixo impacto ecológico.Pergunta 5: PisciculturaEnunciado: Qual inovação permite criar peixes em alta escala sem gastar muita água?Alternativa A: Uso de tanques escavados comuns com água corrente tirada de rios.Afirmação A: Você optou pela piscicultura tradicional de fluxo aberto, muito dependente de água natural.Alternativa B: Sistemas de bioflocos e recirculação fechada que purificam a água.Afirmação B: Você ativou a aquicultura ecológica moderna, que recicla água e evita desperdícios hídricos.Se você quiser ver como o chat monta o resultado, me avise para eu gerar uma simulação da mensagem final unindo as afirmações. Qual o próximo passo do seu projeto?As respostas da IA podem conter erros. Saiba mais",
+        alternativas: [
+            {
+                texto: "Isso é assustador!",
+                afirmacao: "Sua escolha focou no visual biológico clássico, método histórico com limites produtivos."
+            },
+            {
+                texto: "Isso é maravilhoso!",
+                afirmacao: "Você usou biotecnologia moderna e mapeamento genético para prever lucros e produção."
+            }
+        ]
+    },
+
+     {
+        enunciado: "Qual é o foco tecnológico no manejo de porcas gestantes hoje?",
+        alternativas: [
+            {
+                texto: "Isso é assustador!",
+                afirmacao: "Você adotou o modelo industrial antigo de alta restrição física e menor bem-estar. "
+            },
+            {
+                texto: "Isso é maravilhoso!",
+                afirmacao: "Você priorizou o bem-estar animal moderno aliado à automação e controle nutricional."
+            }//fechamento do objeto do texto e afirmação da lista de alternativas
+        ] //fechamento da lista de alternativas
+    },//fechamento do objeto com enunciado e lista de alternativas da lista de perguntas
+]; //fechamento da lista de perguntas
+
+  
 
 let atual = 0;
 let perguntaAtual;
